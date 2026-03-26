@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Landing page -->
+  <url>
+    <loc>https://kiloapp.sa/</loc>
+    <lastmod>2025-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://kiloapp.sa/"/>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://kiloapp.sa/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kiloapp.sa/"/>
+  </url>
+
+  <!-- Support page -->
+  <url>
+    <loc>https://kiloapp.sa/support</loc>
+    <lastmod>2025-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://kiloapp.sa/support"/>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://kiloapp.sa/ar/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kiloapp.sa/support"/>
+  </url>
+
+  <!-- Blog index -->
+  <url>
+    <loc>https://kiloapp.sa/blog/</loc>
+    <lastmod>2025-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://kiloapp.sa/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://kiloapp.sa/ar/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kiloapp.sa/blog/"/>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://kiloapp.sa/privacy</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://kiloapp.sa/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://kiloapp.sa/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kiloapp.sa/privacy"/>
+  </url>
+
+  <!-- Blog article: food tracking & weight loss -->
+  <url>
+    <loc>https://kiloapp.sa/blog/food-tracking-weight-loss</loc>
+    <lastmod>2025-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://kiloapp.sa/blog/food-tracking-weight-loss"/>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://kiloapp.sa/ar/blog/food-tracking-weight-loss"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kiloapp.sa/blog/food-tracking-weight-loss"/>
+    <image:image>
+      <image:loc>https://kiloapp.sa/blog/og-food-tracking.jpg</image:loc>
+      <image:title>Why Tracking Your Food Is the #1 Evidence-Based Strategy for Weight Loss</image:title>
+      <image:caption>Illustrated header showing Saudi food icons, a calorie ring progress chart, and the Kilo app interface</image:caption>
+    </image:image>
+  </url>
+
+</urlset>

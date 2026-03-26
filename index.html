@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO -->
+  <title>Kilo (ولـيك) — Saudi-Smart Calorie Tracking App for iOS</title>
+  <meta name="description" content="Kilo is the calorie tracking app built for Saudi Arabia. AI food scanner, Saudi food database with Kabsa, Mandi &amp; Shawarma. Mifflin-St Jeor powered goals. Free on the App Store.">
+  <meta name="description" lang="ar" content="كيلو (ولـيك) — تطبيق تتبع السعرات الحرارية المصمم خصيصاً للسوق السعودي. ماسح الطعام بالذكاء الاصطناعي، قاعدة بيانات الأطعمة السعودية تشمل الكبسة والمندي والشاورما. حمّل التطبيق مجاناً.">
+  <meta name="keywords" content="calorie tracking app Saudi Arabia, food tracking KSA, weight loss app Saudi, تطبيق تتبع السعرات, كيلو تطبيق, حمية سعودية, كبسة سعرات حرارية, Kabsa calories, Mandi calories, calorie counter Arabic">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Kilo App">
+
+  <!-- Geo -->
+  <meta name="geo.region" content="SA">
+  <meta name="geo.placename" content="Saudi Arabia">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Kilo — ولـيك">
+  <meta property="og:title" content="Kilo (ولـيك) — Saudi-Smart Calorie Tracking App">
+  <meta property="og:description" content="Track Kabsa, Mandi, Shawarma and every Saudi favourite. AI-powered calorie tracking built for KSA life. Free on the App Store.">
+  <meta property="og:url" content="https://kiloapp.sa/">
+  <meta property="og:image" content="https://kiloapp.sa/og-image.jpg">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ar_SA">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@kiloapp">
+  <meta name="twitter:title" content="Kilo (ولـيك) — Saudi-Smart Calorie Tracking">
+  <meta name="twitter:description" content="Track Kabsa, Mandi, Shawarma and every Saudi favourite. AI-powered. Built for KSA.">
+  <meta name="twitter:image" content="https://kiloapp.sa/og-image.jpg">
+
+  <!-- Canonical + hreflang -->
+  <link rel="canonical" href="https://kiloapp.sa/">
+  <link rel="alternate" hreflang="en" href="https://kiloapp.sa/">
+  <link rel="alternate" hreflang="ar" href="https://kiloapp.sa/ar/">
+  <link rel="alternate" hreflang="x-default" href="https://kiloapp.sa/">
+
+  <!-- Fonts: preconnect first, then load -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Critical CSS (inline for above-the-fold render) -->
+  <style>
+    :root{--color-bg:#EDE8DF;--color-primary:#1B4332;--color-accent:#C8A96E;--color-text:#1A1A18}
+    body{background-color:#EDE8DF;color:#1A1A18;font-family:'DM Sans',system-ui,sans-serif;margin:0}
+    .nav{position:sticky;top:0;z-index:100;background-color:rgba(237,232,223,.92);border-bottom:1px solid rgba(26,26,24,.1);padding:1rem 0;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+    .container{width:100%;max-width:1200px;margin:0 auto;padding:0 1.5rem}
+    .hero{padding:6rem 0;text-align:center;position:relative;overflow:hidden}
+  </style>
+
+  <!-- JSON-LD: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Kilo",
+    "alternateName": "ولـيك",
+    "url": "https://kiloapp.sa",
+    "description": "Saudi-market calorie tracking iOS app with AI food scanner and Saudi food database",
+    "foundingLocation": {
+      "@type": "Place",
+      "addressCountry": "SA",
+      "name": "Saudi Arabia"
+    },
+    "sameAs": [
+      "https://instagram.com/kiloapp",
+      "https://twitter.com/kiloapp",
+      "https://tiktok.com/@kiloapp"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "support@kiloapp.sa",
+      "availableLanguage": ["English", "Arabic"]
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: MobileApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Kilo — Calorie Tracker",
+    "alternateName": "ولـيك — تتبع السعرات",
+    "operatingSystem": "iOS",
+    "applicationCategory": "HealthApplication",
+    "description": "Kilo is a Saudi-smart calorie tracking app featuring an AI food scanner, a comprehensive Saudi food database including Kabsa, Mandi, and Shawarma, and Mifflin-St Jeor powered calorie targets. Available in English and Arabic.",
+    "inLanguage": ["en", "ar"],
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "SAR"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "1250",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "featureList": [
+      "AI Food Scanner",
+      "Saudi Food Database — Kabsa, Mandi, Harees, Shawarma",
+      "Smart Calorie Goals with Mifflin-St Jeor",
+      "Arabic Language Support",
+      "Macro Tracking — Protein, Carbs, Fat",
+      "Ramadan Mode",
+      "Progress Charts"
+    ],
+    "availableOnDevice": "iPhone",
+    "downloadUrl": "#app-store-link",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Kilo"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav__inner">
+
+        <a href="/" class="nav__logo" aria-label="Kilo — Home">
+          <span class="app-icon app-icon--sm">
+            <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="36" height="36" rx="8" fill="#1B4332"/>
+              <text x="18" y="27" font-family="'DM Serif Display',Georgia,serif" font-size="22" fill="#EDE8DF" text-anchor="middle">K</text>
+            </svg>
+          </span>
+          <span class="wordmark">
+            <span class="wordmark__en">Kilo</span>
+            <span class="wordmark__ar">ولـيك</span>
+          </span>
+        </a>
+
+        <ul class="nav__links">
+          <li><a href="/" class="active" aria-current="page">Home</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="blog/">Blog</a></li>
+        </ul>
+
+        <a href="#app-store-link" class="btn btn--primary btn--sm nav__cta">
+          <svg width="14" height="17" viewBox="0 0 814 1000" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 376.7 0 246.7 0 183.5 0 69.3 33.8 28.5 77.2 28.5s72.3 26.3 168.1 26.3c90 0 113.2-26.3 185.6-26.3 63.2 0 117.8 47.5 158.8 47.5 47.5 0 95-47.5 158-47.5z"/>
+            <path d="M545.8 8.3C530.2 28.5 507 56.3 507 90.5c0 30 21.5 56.1 32.7 65.3 14.6 11.6 28.3 19 42.4 19 7.3 0 14-2.1 16.8-2.1.6-.6.6-1.4 0-2.1-15.2-5.1-53.1-26.5-53.1-79.6 0-44.4 28.5-80.7 38.1-90z"/>
+          </svg>
+          Download
+        </a>
+
+        <button class="nav__hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+
+      </div>
+
+      <div class="nav__mobile-menu" id="mobile-menu" aria-hidden="true">
+        <a href="/" class="active" aria-current="page">Home</a>
+        <a href="support.html">Support</a>
+        <a href="blog/">Blog</a>
+        <a href="#app-store-link" class="btn btn--primary">Download on the App Store</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero section" aria-labelledby="hero-heading">
+      <div class="container">
+
+        <!-- App icon with gold ring -->
+        <div class="app-icon app-icon--hero hero__icon" aria-hidden="true">
+          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="60" cy="60" r="57" fill="none" stroke="#C8A96E" stroke-width="3" opacity="0.55"/>
+            <circle cx="60" cy="60" r="51" fill="none" stroke="#C8A96E" stroke-width="1" opacity="0.25"/>
+            <rect x="16" y="16" width="88" height="88" rx="20" fill="#1B4332"/>
+            <text x="60" y="82" font-family="'DM Serif Display',Georgia,serif" font-size="58" fill="#EDE8DF" text-anchor="middle">K</text>
+          </svg>
+        </div>
+
+        <h1 id="hero-heading">Track What Matters.</h1>
+        <p class="hero__subtitle-ar" lang="ar">تتبّع ما يهمّ</p>
+        <p class="hero__desc">Saudi-smart calorie tracking. Know your food, reach your goal.</p>
+
+        <div class="hero__actions">
+          <a href="#app-store-link" class="btn btn--primary btn--lg" aria-label="Download Kilo on the App Store">
+            <svg width="18" height="22" viewBox="0 0 814 1000" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 376.7 0 246.7 0 183.5 0 69.3 33.8 28.5 77.2 28.5s72.3 26.3 168.1 26.3c90 0 113.2-26.3 185.6-26.3 63.2 0 117.8 47.5 158.8 47.5 47.5 0 95-47.5 158-47.5z"/>
+              <path d="M545.8 8.3C530.2 28.5 507 56.3 507 90.5c0 30 21.5 56.1 32.7 65.3 14.6 11.6 28.3 19 42.4 19 7.3 0 14-2.1 16.8-2.1.6-.6.6-1.4 0-2.1-15.2-5.1-53.1-26.5-53.1-79.6 0-44.4 28.5-80.7 38.1-90z"/>
+            </svg>
+            Download on the App Store
+          </a>
+          <a href="#features" class="btn btn--ghost btn--lg">Learn More</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== FEATURES ===================== -->
+    <section id="features" class="section" aria-labelledby="features-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-header__label">Features</span>
+          <h2 id="features-heading" class="section-header__title">Built for Saudi Life</h2>
+          <p class="section-header__desc">Everything you need to track your nutrition, understand your food, and reach your goals — in Arabic and English.</p>
+        </div>
+
+        <div class="grid-3">
+
+          <!-- Feature 1: AI Food Scanner -->
+          <div class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                <circle cx="12" cy="13" r="4"/>
+              </svg>
+            </div>
+            <h3 class="card__title">AI Food Scanner</h3>
+            <p class="card__title-ar" lang="ar">ماسح الطعام الذكي</p>
+            <p class="card__desc">Snap a photo of any meal and get instant macros — protein, carbs, fat and total calories in seconds.</p>
+          </div>
+
+          <!-- Feature 2: Saudi Food Database -->
+          <div class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Saudi Food Database</h3>
+            <p class="card__title-ar" lang="ar">كبسة · مندي · هريس · شاورما</p>
+            <p class="card__desc">Kabsa, Mandi, Harees, Samboosa — we know your food. The most complete Saudi cuisine database in any app.</p>
+          </div>
+
+          <!-- Feature 3: Smart Goals -->
+          <div class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <circle cx="12" cy="12" r="6"/>
+                <circle cx="12" cy="12" r="2" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Smart Goals</h3>
+            <p class="card__title-ar" lang="ar">أهداف سعرات ذكية</p>
+            <p class="card__desc">Mifflin-St Jeor powered calorie targets personalised to your height, weight, age, and activity level.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== HOW IT WORKS ===================== -->
+    <section class="section" style="background-color: var(--color-bg-card);" aria-labelledby="how-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-header__label">How It Works</span>
+          <h2 id="how-heading" class="section-header__title">Three Steps to Your Goal</h2>
+          <p class="section-header__desc">Start tracking in minutes, not hours. No complicated setup, no prior nutrition knowledge needed.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step__number" aria-hidden="true">1</div>
+            <h3 class="step__title">Create Your Profile</h3>
+            <p class="step__desc">Enter your height, weight, age and goal. Kilo calculates your personalised daily calorie target using the Mifflin-St Jeor formula — the gold standard in nutrition science.</p>
+          </div>
+          <div class="step">
+            <div class="step__number" aria-hidden="true">2</div>
+            <h3 class="step__title">Log Your Meals</h3>
+            <p class="step__desc">Snap a photo, scan a barcode, or search our Saudi food database. Kabsa for Thursday lunch? Shawarma on the way home? Log it in under 30 seconds.</p>
+          </div>
+          <div class="step">
+            <div class="step__number" aria-hidden="true">3</div>
+            <h3 class="step__title">Hit Your Goal</h3>
+            <p class="step__desc">Watch your daily ring close as you log. Spot patterns, understand your habits, and make small swaps that compound into real, lasting results.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section class="section" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-header__label">Community</span>
+          <h2 id="testimonials-heading" class="section-header__title">What People Are Saying</h2>
+        </div>
+
+        <div class="testimonials-grid">
+
+          <div class="testimonial">
+            <div class="testimonial__stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial__quote">"Finally an app that actually has Saudi food in it. I can log my mum's Kabsa without guessing. Lost 8kg in 3 months just by being more aware."</p>
+            <p class="testimonial__quote testimonial__quote--ar" lang="ar">«أخيراً تطبيق يحتوي على الطعام السعودي فعلاً. أستطيع تسجيل كبسة أمي دون تخمين. فقدت ٨ كيلو في ٣ أشهر بمجرد أن أصبحت أكثر وعياً.»</p>
+            <p class="testimonial__author">Sarah A. · سارة أ.</p>
+          </div>
+
+          <div class="testimonial">
+            <div class="testimonial__stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial__quote">"The Arabic interface makes such a difference. I've tried five other apps but this is the first one that feels like it was made for me. The AI scanner is incredibly accurate."</p>
+            <p class="testimonial__quote testimonial__quote--ar" lang="ar">«الواجهة العربية تحدث فارقاً كبيراً. جربت خمسة تطبيقات أخرى لكن هذا أول تطبيق يبدو أنه صُنع من أجلي. الماسح الذكي دقيق بشكل رائع.»</p>
+            <p class="testimonial__author">Mohammed K. · محمد خ.</p>
+          </div>
+
+          <div class="testimonial">
+            <div class="testimonial__stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial__quote">"Kilo helped me navigate Ramadan without the usual weight gain. The Ramadan mode adjusted my goals perfectly and I could track my suhoor and iftar meals easily."</p>
+            <p class="testimonial__quote testimonial__quote--ar" lang="ar">«ساعدني كيلو على تجاوز رمضان بدون زيادة الوزن المعتادة. ضبط وضع رمضان أهدافي بشكل مثالي وأستطعت تتبع وجبات السحور والإفطار بسهولة.»</p>
+            <p class="testimonial__author">Noura S. · نورة س.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BLOG TEASER ===================== -->
+    <section class="section section--flush" aria-labelledby="blog-teaser-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-header__label">From the Kilo Blog</span>
+          <h2 id="blog-teaser-heading" class="section-header__title">Nutrition Insights for Saudi Life</h2>
+        </div>
+
+        <a href="blog/food-tracking-weight-loss.html" class="blog-card blog-card--featured" aria-label="Read: Why Tracking Your Food Is the #1 Evidence-Based Strategy for Weight Loss">
+          <div class="blog-card__image">
+            <div class="blog-card__image-inner" aria-hidden="true">
+              <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3h18v18H3z" rx="2"/><path d="M3 9h18M9 21V9"/>
+              </svg>
+              <span style="color: var(--color-accent); font-family: 'DM Serif Display',serif; font-size:1rem;">Evidence &amp; Food Science</span>
+            </div>
+          </div>
+          <div class="blog-card__body">
+            <span class="blog-card__tag">Weight Loss · Science</span>
+            <h3 class="blog-card__title">Why Tracking Your Food Is the #1 Evidence-Based Strategy for Weight Loss</h3>
+            <p class="blog-card__excerpt">Calorie journaling doubles weight loss results, according to a 2019 JAMA Internal Medicine meta-analysis of 3,600+ participants. We break down the science — and show you exactly how it applies to Saudi cuisine.</p>
+            <div class="blog-card__meta">
+              <span>Kilo Editorial Team</span>
+              <span>&middot;</span>
+              <span>March 2025</span>
+              <span>&middot;</span>
+              <span>8 min read</span>
+            </div>
+          </div>
+        </a>
+
+        <div class="text-center mt-2xl">
+          <a href="blog/" class="btn btn--ghost">Browse All Articles</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FINAL CTA ===================== -->
+    <section class="section" aria-label="Download call to action">
+      <div class="container container--narrow">
+        <div class="contact-card" style="text-align:center;">
+          <div class="app-icon app-icon--md" style="margin:0 auto var(--space-lg);" aria-hidden="true">
+            <svg viewBox="0 0 52 52" xmlns="http://www.w3.org/2000/svg">
+              <rect width="52" height="52" rx="12" fill="#EDE8DF" opacity="0.15"/>
+              <text x="26" y="38" font-family="'DM Serif Display',Georgia,serif" font-size="32" fill="#EDE8DF" text-anchor="middle">K</text>
+            </svg>
+          </div>
+          <h2>Start Your Journey Today</h2>
+          <p lang="ar" style="font-family:var(--font-arabic);direction:rtl;font-size:1.1rem;color:var(--color-accent);">ابدأ رحلتك اليوم</p>
+          <p>Free to download. Saudi food database included. No excuses.</p>
+          <a href="#app-store-link" class="btn btn--primary btn--lg" aria-label="Download Kilo on the App Store">
+            <svg width="18" height="22" viewBox="0 0 814 1000" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 376.7 0 246.7 0 183.5 0 69.3 33.8 28.5 77.2 28.5s72.3 26.3 168.1 26.3c90 0 113.2-26.3 185.6-26.3 63.2 0 117.8 47.5 158.8 47.5 47.5 0 95-47.5 158-47.5z"/>
+              <path d="M545.8 8.3C530.2 28.5 507 56.3 507 90.5c0 30 21.5 56.1 32.7 65.3 14.6 11.6 28.3 19 42.4 19 7.3 0 14-2.1 16.8-2.1.6-.6.6-1.4 0-2.1-15.2-5.1-53.1-26.5-53.1-79.6 0-44.4 28.5-80.7 38.1-90z"/>
+            </svg>
+            Download on the App Store
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+
+        <div class="footer__brand">
+          <div class="wordmark mb-md">
+            <span class="app-icon app-icon--sm" aria-hidden="true">
+              <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                <rect width="36" height="36" rx="8" fill="#2D6A4F"/>
+                <text x="18" y="27" font-family="'DM Serif Display',Georgia,serif" font-size="22" fill="#EDE8DF" text-anchor="middle">K</text>
+              </svg>
+            </span>
+            <span class="wordmark__en">Kilo</span>
+            <span class="wordmark__ar">ولـيك</span>
+          </div>
+          <p>The Saudi-smart calorie tracker. Built for your food, your language, your goals.</p>
+          <div class="footer__social" aria-label="Social media links">
+            <a href="#" class="social-icon" aria-label="Kilo on Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Kilo on X / Twitter">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.63zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Kilo on TikTok">
+              <svg width="16" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.3 6.3 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.69a4.85 4.85 0 0 1-1.01 0z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#app-store-link">Download</a></li>
+            <li><a href="blog/">Blog</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer__nav" aria-label="Footer legal navigation">
+          <h4>Support &amp; Legal</h4>
+          <ul>
+            <li><a href="support.html">Support &amp; FAQ</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="mailto:support@kiloapp.sa">Contact Us</a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <div class="footer__bottom">
+        <span>&copy; 2025 Kilo. Made with &#9829; in Saudi Arabia.</span>
+        <span class="footer__bottom-ar" lang="ar">صُنع بـ &#9829; في المملكة العربية السعودية &copy; ٢٠٢٥ كيلو</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('hamburger-btn');
+      var menu = document.getElementById('mobile-menu');
+      if (!btn || !menu) return;
+      btn.addEventListener('click', function () {
+        var open = menu.classList.toggle('is-open');
+        btn.setAttribute('aria-expanded', open);
+        menu.setAttribute('aria-hidden', !open);
+      });
+      menu.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', function () {
+          menu.classList.remove('is-open');
+          btn.setAttribute('aria-expanded', 'false');
+          menu.setAttribute('aria-hidden', 'true');
+        });
+      });
+      document.addEventListener('click', function (e) {
+        if (!btn.contains(e.target) && !menu.contains(e.target)) {
+          menu.classList.remove('is-open');
+          btn.setAttribute('aria-expanded', 'false');
+          menu.setAttribute('aria-hidden', 'true');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

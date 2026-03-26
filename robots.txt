@@ -1,0 +1,12 @@
+# robots.txt — Kilo (ولـيك)
+# https://kiloapp.sa/
+
+User-agent: *
+Allow: /
+
+# Block placeholder / stub pages if added later
+Disallow: /ar/        # Arabic mirror — serve when live, block until then
+Disallow: /draft/
+
+# Sitemap location
+Sitemap: https://kiloapp.sa/sitemap.xml
