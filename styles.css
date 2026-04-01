@@ -1577,6 +1577,14 @@ details[open] > summary .faq-icon { transform: rotate(45deg); }
   direction: rtl;
 }
 
+.footer__legal {
+  font-size: 0.75rem;
+  color: rgba(237,232,223,0.25);
+  text-align: center;
+  margin-top: var(--space-sm);
+  margin-bottom: 0;
+}
+
 /* ============================================================
    UTILITY CLASSES
    ============================================================ */
