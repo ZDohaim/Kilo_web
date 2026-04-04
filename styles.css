@@ -1473,14 +1473,14 @@ details[open] > summary .faq-icon { transform: rotate(45deg); }
    FOOTER
    ============================================================ */
 .footer {
-  background-color: var(--color-text);
+  background-color: var(--color-primary-dark);
   color: var(--color-bg);
   padding: var(--space-3xl) 0 var(--space-xl);
   margin-top: var(--space-4xl);
 }
 
 @media (prefers-color-scheme: dark) {
-  .footer { background-color: #0D0D0B; }
+  .footer { background-color: #0D2218; }
 }
 
 .footer__top {
