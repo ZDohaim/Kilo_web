@@ -68,8 +68,6 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --color-bg:            #1E1C17;
-    --color-bg-card:       #252319;
-    --color-bg-elevated:   #2C2A1F;
     --color-primary:       #2D6A4F;
     --color-primary-dark:  #1B4332;
     --color-primary-light: #40916C;
