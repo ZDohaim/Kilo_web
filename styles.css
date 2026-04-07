@@ -184,19 +184,30 @@ p:last-child { margin-bottom: 0; }
 }
 
 /* ============================================================
-   APP ICON — K lettermark on kiloDeepGreen
+   APP ICON
    ============================================================ */
 .app-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 22%;
+  background: rgba(27, 67, 50, 0.08);
+  box-shadow: 0 18px 44px rgba(27, 67, 50, 0.16);
 }
 
 .app-icon--sm   { width: 36px;  height: 36px; }
 .app-icon--md   { width: 52px;  height: 52px; }
 .app-icon--lg   { width: 80px;  height: 80px; }
 .app-icon--hero { width: 120px; height: 120px; }
+
+.app-icon__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 /* ============================================================
    WORDMARK
