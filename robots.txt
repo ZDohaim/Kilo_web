@@ -1,4 +1,4 @@
-# robots.txt — Kilo (ولـيك)
+# robots.txt — Kilo (كيلو)
 # https://kiloapp.sa/
 
 User-agent: *
