@@ -615,6 +615,8 @@ p:last-child {
   align-items: center;
   justify-content: center;
   margin: 0 auto var(--space-lg);
+  position: relative;
+  z-index: 1;
 }
 
 .step__title {
