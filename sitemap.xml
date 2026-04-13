@@ -47,6 +47,17 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kiloapp.sa/privacy"/>
   </url>
 
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://kiloapp.sa/terms</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://kiloapp.sa/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://kiloapp.sa/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kiloapp.sa/terms"/>
+  </url>
+
   <!-- Blog article: food tracking & weight loss -->
   <url>
     <loc>https://kiloapp.sa/blog/food-tracking-weight-loss</loc>
@@ -60,6 +71,22 @@
       <image:loc>https://kiloapp.sa/blog/og-food-tracking.jpg</image:loc>
       <image:title>Why Tracking Your Food Is the #1 Evidence-Based Strategy for Weight Loss</image:title>
       <image:caption>Illustrated header showing Saudi food icons, a calorie ring progress chart, and the Kilo app interface</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Blog article: what are calories -->
+  <url>
+    <loc>https://kiloapp.sa/blog/what-are-calories</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://kiloapp.sa/blog/what-are-calories"/>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://kiloapp.sa/ar/blog/what-are-calories"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kiloapp.sa/blog/what-are-calories"/>
+    <image:image>
+      <image:loc>https://kiloapp.sa/og-image.jpg</image:loc>
+      <image:title>What Are Calories? A Simple Guide to How Calories Work</image:title>
+      <image:caption>Illustrated calorie doodles explaining energy labels, food structure, and calorie use in the body</image:caption>
     </image:image>
   </url>
 
